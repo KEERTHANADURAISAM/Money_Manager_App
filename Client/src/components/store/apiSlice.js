@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const baseURL = "http://localhost:8080";
-// https://money-manager-rust.vercel.app/
+const baseURL = "https://money-manager-app-mern.vercel.app/";
 
 
 export const apiSlice = createApi({
